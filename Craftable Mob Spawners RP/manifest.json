@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Allows you to get Mob Spawners in survival",
+		"name": "Craftable Mob Spawners",
+		"uuid": "aea15975-5231-45cd-bad0-7ea49d4ebc9e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "Allows you to get Mob Spawners in survival",
+			"type": "resources",
+			"uuid": "42163a19-e5b3-4dc5-99ac-00f1c3ef3fcd",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	}
+}

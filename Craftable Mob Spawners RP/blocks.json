@@ -1,0 +1,10 @@
+{
+	"format_version": "1.20.10",
+	"spawners:cage": {
+		"sound": "trial_spawner"
+	},
+	"mob_spawner": {
+		"textures": "mob_spawner",
+		"sound": "trial_spawner"
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "resource_pack_name": "Craftable Spawners Resource Pack",
+    "texture_data": {
+      "spawners:spawner_amulet": {
+        "textures": "textures/items/spawner_amulet"
+      },
+      "spawners:trial_amulet": {
+        "textures": "textures/items/trial_amulet"
+      }
+    }
+  }
