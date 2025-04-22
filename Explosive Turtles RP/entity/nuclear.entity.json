@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "explosive:nuclear_turtle",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/nuclear"
+            },
+            "geometry": {
+                "default": "geometry.boom"
+            },
+            "animations": {
+                "look_at_target": "animation.common.look_at_target",
+                "pressed": "animation.boom.press",
+                "ground_move": "animation.boom.ground_move",
+                "swim": "animation.boom.swim"
+              },
+            "scripts": {
+                "animate": [
+                    "look_at_target",
+                    {
+                        "ground_move":"query.is_on_ground && query.modified_distance_moved"
+                    },
+                    {
+                        "swim":"query.is_in_water && query.modified_distance_moved"
+                    },
+                    {
+                        "pressed":"query.is_ignited"
+                    }
+                ]
+            },
+            "spawn_egg": {
+				"texture": "nuclear_turtle_spawn_egg"
+			},
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

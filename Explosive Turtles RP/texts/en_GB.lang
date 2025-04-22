@@ -1,0 +1,4 @@
+entity.explosive:turtle.name=a Explosive Turtle
+entity.explosive:nuclear_turtle.name=a Nuclear Turtle
+item.spawn_egg.entity.explosive:turtle.name=Spawn Explosive Turtle
+item.spawn_egg.entity.explosive:nuclear_turtle.name=Spawn Nuclear Turtle

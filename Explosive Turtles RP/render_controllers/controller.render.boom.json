@@ -1,0 +1,21 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.boom": {
+            "geometry": "Geometry.default",
+            "materials": [ { "*": "Material.default" }],
+            "textures": [ "Array.variant[ query.variant ]" ],
+            "arrays": {
+                "textures": {
+                    "Array.variant":[
+                      "Texture.default",
+                      "Texture.orange",
+                      "Texture.pink",
+                      "Texture.purple",
+                      "Texture.blue"
+                    ]
+                }
+            }
+        }
+    }
+}

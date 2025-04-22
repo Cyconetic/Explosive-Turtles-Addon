@@ -1,0 +1,76 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "explosive:turtle":{
+                "events" : {
+                    "ambient" : "mob.turtle.ambient",
+                    "born" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle_baby.born",
+                       "volume" : 1.0
+                    },
+                    "death" : "mob.turtle.death",
+                    "death.baby" : "mob.turtle_baby.death",
+                    "eat" : {
+                     "pitch": 2.5,
+                     "sound": "mob.turtle.pressed", //I couldn't figure out how to create a new sound in here that then would actually play when the button was pressed
+                     "volume": 1.0
+                    },
+                    "hurt" : "mob.turtle.hurt",
+                    "hurt.baby" : "mob.turtle_baby.hurt",
+                    "step" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle.step",
+                       "volume" : 1.0
+                    },
+                    "step.baby" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle_baby.step",
+                       "volume" : 1.0
+                    },
+                    "swim" : {
+                       "pitch" : [ 0.60, 1.40 ],
+                       "sound" : "mob.turtle.swim"
+                    }
+                 },
+                 "pitch" : [ 0.80, 1.20 ],
+                 "volume" : 1.0
+              },
+              "explosive:nuclear_turtle":{
+                "events" : {
+                    "ambient" : "mob.turtle.ambient",
+                    "born" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle_baby.born",
+                       "volume" : 1.0
+                    },
+                    "death" : "mob.turtle.death",
+                    "death.baby" : "mob.turtle_baby.death",
+                    "eat" : {
+                     "pitch": 2.5,
+                     "sound": "mob.turtle.pressed", //Same here
+                     "volume": 1.0
+                    },
+                    "hurt" : "mob.turtle.hurt",
+                    "hurt.baby" : "mob.turtle_baby.hurt",
+                    "step" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle.step",
+                       "volume" : 1.0
+                    },
+                    "step.baby" : {
+                       "pitch" : 1.0,
+                       "sound" : "mob.turtle_baby.step",
+                       "volume" : 1.0
+                    },
+                    "swim" : {
+                       "pitch" : [ 0.60, 1.40 ],
+                       "sound" : "mob.turtle.swim"
+                    }
+                 },
+                 "pitch" : [ 0.80, 1.20 ],
+                 "volume" : 1.0
+              }
+        }
+    }
+}

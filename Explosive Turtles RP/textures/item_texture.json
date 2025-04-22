@@ -1,0 +1,10 @@
+{
+	"texture_data": {
+		"explosive_turtle_spawn_egg": {
+			"textures": ["textures/items/explosive_turtle_spawn_egg"]
+		},
+		"nuclear_turtle_spawn_egg": {
+			"textures": ["textures/items/nuclear_turtle_spawn_egg"]
+		}
+	}
+}

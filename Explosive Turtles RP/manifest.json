@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Press the button I dare you",
+		"name": "Explosive Turtles",
+		"uuid": "da76fec6-8bb3-4bb8-aff7-2cbc4bacdc6c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "Press the button I dare you",
+			"type": "resources",
+			"uuid": "c5bfeb15-6437-4308-8d00-ad2bc33b7e13",
+			"version": [1, 0, 0]
+		}
+	]
+}
